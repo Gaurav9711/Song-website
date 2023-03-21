@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(37, 29, 29);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 37px;
+}
+.navbar ul{
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+.navbar ul li img{
+    width: 26px;
+    padding: 0 5px;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 0 10px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    height: 62vh;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    display: flex;
+    background-color: black;
+    margin: 25px auto;
+    padding: 34px;
+    color: white;
+    width: 70%;
+    border-radius: 12px;
+    background-image: url("bg2.jpg");
+    /* background: url(mountain.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.bottom{
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.songinfo{
+    position: absolute;
+    left: 9%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.songinfo img{
+    position:relative;
+    width: 40px;
+    margin-right: 5px;
+}
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+margin-top: 15px;
+padding: 2px;
+}
+.icons i{
+    cursor:pointer; ;
+}
+.songlistcontainer{
+    margin-top: 35px;
+}
+.songItem{
+    display: flex;
+    border: 2px solid white;
+    font-family:cursive;
+    border-radius: 5px;
+    margin-top: 4px;
+    align-items: center;
+    justify-content: space-between;
+}
+.songname{
+    padding: 0 18px;
+}
+.songItem img{
+    width: 20px;
+    height: 21px;
+    margin: 0 15px;
+}
+.timestamp{
+    margin: 0 5px;
+}
+.timestamp i{
+    cursor: pointer;
+    margin-right: 7px;
+}
